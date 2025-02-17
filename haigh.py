@@ -45,12 +45,12 @@ class Haigh(QtWidgets.QMainWindow):
         self.ax.plot(self.s_m4, self.s_af4, label="Morrow")
         self.ax.plot(self.s_m5, self.s_af5, label="Goodman")
         # format plot
-        self.ax.set_xlabel("Mean stress [MPa]")
-        self.ax.set_ylabel("Stress amplitude [MPa]")
+        self.ax.set_xlabel("Mean stress [MPa]", fontsize=8)
+        self.ax.set_ylabel("Stress amplitude [MPa]", fontsize=8)
         self.ax.grid(True)
         self.ax.set_ylim(bottom=0)
         self.ax.set_xlim(left=self.s_m3[0]-80)
-        self.ax.legend(loc="upper right", fontsize=12)
+        self.ax.legend(loc="upper right", fontsize=8)
         
         # Add menu
         self.box = QtWidgets.QCheckBox("Show all curves", self)
@@ -238,12 +238,12 @@ class Haigh(QtWidgets.QMainWindow):
                 self.ax.plot(self.s_m5, self.s_af5, label="Goodman")
                 
         # format plot
-        self.ax.set_xlabel("Mean stress [MPa]")
-        self.ax.set_ylabel("Stress amplitude [MPa]")
+        self.ax.set_xlabel("Mean stress [MPa]", fontsize=8)
+        self.ax.set_ylabel("Stress amplitude [MPa]", fontsize=8)
         self.ax.grid(True)
         self.ax.set_ylim(bottom=0)
         self.ax.set_xlim(left=self.s_m3[0]-80)
-        self.ax.legend(loc="upper right", fontsize=12)
+        self.ax.legend(loc="upper right", fontsize=8)
         
         # FAT indicator text
         self.label2.setText("FAT Class:{}".format(self.FAT))

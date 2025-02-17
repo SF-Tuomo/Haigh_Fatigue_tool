@@ -56,7 +56,7 @@ class Sn(QtWidgets.QMainWindow):
             self.cycles = np.interp(-self.amp, -y_data, x_data)
         # plot cycles
         self.ax.plot([0, self.cycles, self.cycles], [self.amp, self.amp, 0], linestyle='--', marker='o', color='k')
-        self.ax.annotate('Fatigue life {}'.format(format(self.cycles, ".0f")), xy=(self.cycles, self.amp), xytext=(15, 5))
+        self.ax.annotate('Fatigue life: {} cycles'.format(format(self.cycles, ".0f")), xy=(self.cycles, self.amp), xytext=(15, 5))
         
         # layout
         self.h_layout = QtWidgets.QHBoxLayout()
