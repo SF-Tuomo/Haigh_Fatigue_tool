@@ -1,0 +1,8 @@
+Name, Ultimate tensile strength [MPa], Yield strength [MPa], Youngs modulus [GPa]
+S235 (EN1993-1-1), 360, 235, 210
+S355 (EN1993-1-1), 470, 355, 210
+S355J2S minimum (EN 10025-1 150 mm <D<250 mm), 450, 285, 210
+42CrMo4 +QT (EN10269), 860, 730, 210
+25CrMo4 +QT (EN10269), 600, 440, 210
+42CrMo5-6 +QT (EN10269), 860, 700, 210
+21CrMoV5-7 +QT (EN10269), 700, 550, 211
