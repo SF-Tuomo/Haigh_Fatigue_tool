@@ -1,3 +1,9 @@
-Text file to repository to include at least one file.
+Make sure you have Python installed before running this.
 
-Start by running the main file.
+Start with clicking the shortcut.
+
+Checks if required libraries are installed and installs them if not.
+
+Additional materials can be added by following the format on material_properties.txt file and adding new row.
+
+
