@@ -1,3 +1,5 @@
-Text file to repository to include at least one file.
+Make sure you have Python installed before running this.
 
-Start by running the main file.
+Executable file (.exe -file) is located named "Haigh Fatigue tool". "Source_files" contain files which the Haigh-program is formed from.
+
+Additional materials can be added by following the format on material_properties.txt file and adding new row.
