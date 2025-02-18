@@ -4,13 +4,5 @@ Make sure you have Python installed before running this.
 Executable file (.exe -file) is located named "Haigh Fatigue tool". "Source_files" contain files which the Haigh-program is formed from.
 
 Additional materials can be added by following the format on material_properties.txt file and adding new row.
-=======
 
-Start with clicking the shortcut.
-
-Checks if required libraries are installed and installs them if not.
-
-Additional materials can be added by following the format on material_properties.txt file and adding new row.
-
-
->>>>>>> 66986ddfc99a6ec783dc4e7a98d750fc0ce0d507
+Only Haigh Fatigue tool.exe and material_properties.txt are required to run the program. Source files are in case of calculations or plots are needed to be reviewed.
