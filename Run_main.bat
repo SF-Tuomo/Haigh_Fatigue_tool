@@ -1,0 +1,1 @@
+python "C:\Users\SF Tuomo\Desktop\GitHub\Haigh_Fatigue_tool\main.py"
